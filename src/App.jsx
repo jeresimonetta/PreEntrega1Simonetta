@@ -1,6 +1,7 @@
-import Footer from "./components/layout/footer/Footer.jsx";
-import Navbar from "./components/layout/navbar/Navbar.jsx";
-import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer.jsx";
+import Counter from "./components/common/counter/Counter";
+import Footer from "./components/layout/footer/Footer";
+import Navbar from "./components/layout/navbar/Navbar";
+import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <ItemListContainer />
       <Footer />
+      <Counter />
     </div>
   );
 }

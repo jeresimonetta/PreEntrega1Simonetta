@@ -3,20 +3,24 @@ import ProductCard from "../../common/productCard/ProductCard";
 const ItemListContainer = () => {
   return (
     <div>
-      <h1>SickInkPrints</h1>
-
-      <ProductCard />
+      <h1>Bienvenidxs a SickInkPrints</h1>
 
       <div>
-        <h3>Título 2</h3>
-        <h4>Descrición 2</h4>
-        <h4>Precio 2</h4>
-      </div>
-
-      <div>
-        <h3>Título 3</h3>
-        <h4>Descrición 3</h4>
-        <h4>Precio 3</h4>
+        <ProductCard
+          precio={200}
+          titulo={"Título 1"}
+          descripcion={"Descripción 1"}
+        />
+        <ProductCard
+          precio={300}
+          titulo={"Título 2"}
+          descripcion={"Descripción 2"}
+        />
+        <ProductCard
+          precio={400}
+          titulo={"Título 3"}
+          descripcion={"Descripción 3"}
+        />
       </div>
     </div>
   );
